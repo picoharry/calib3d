@@ -153,7 +153,12 @@
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="in_VID5" />
+    <None Include="out_camera_data.yml" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="VID5.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
